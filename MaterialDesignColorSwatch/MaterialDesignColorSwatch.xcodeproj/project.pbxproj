@@ -13,6 +13,7 @@
 		3B77FAC21ABDC926008FC7C2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B77FAC11ABDC926008FC7C2 /* Images.xcassets */; };
 		3B77FAC51ABDC926008FC7C2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B77FAC31ABDC926008FC7C2 /* LaunchScreen.xib */; };
 		3B77FAD11ABDC926008FC7C2 /* MaterialDesignColorSwatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B77FAD01ABDC926008FC7C2 /* MaterialDesignColorSwatchTests.swift */; };
+		3B77FADB1ABDC98A008FC7C2 /* MaterialColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B77FADA1ABDC98A008FC7C2 /* MaterialColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		3B77FACA1ABDC926008FC7C2 /* MaterialDesignColorSwatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaterialDesignColorSwatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B77FACF1ABDC926008FC7C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B77FAD01ABDC926008FC7C2 /* MaterialDesignColorSwatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialDesignColorSwatchTests.swift; sourceTree = "<group>"; };
+		3B77FADA1ABDC98A008FC7C2 /* MaterialColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				3B77FABA1ABDC926008FC7C2 /* AppDelegate.swift */,
 				3B77FABC1ABDC926008FC7C2 /* ViewController.swift */,
+				3B77FADA1ABDC98A008FC7C2 /* MaterialColor.swift */,
 				3B77FABE1ABDC926008FC7C2 /* Main.storyboard */,
 				3B77FAC11ABDC926008FC7C2 /* Images.xcassets */,
 				3B77FAC31ABDC926008FC7C2 /* LaunchScreen.xib */,
@@ -157,7 +160,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0620;
-				ORGANIZATIONNAME = Catouse;
+				ORGANIZATIONNAME = Catouse.com;
 				TargetAttributes = {
 					3B77FAB41ABDC926008FC7C2 = {
 						CreatedOnToolsVersion = 6.2;
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B77FADB1ABDC98A008FC7C2 /* MaterialColor.swift in Sources */,
 				3B77FABD1ABDC926008FC7C2 /* ViewController.swift in Sources */,
 				3B77FABB1ABDC926008FC7C2 /* AppDelegate.swift in Sources */,
 			);
