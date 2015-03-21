@@ -1,5 +1,5 @@
 # MaterialDesignColorSwatch-swift
-Get awsome color swatch defined in Google Material Design, write in swift and available for OSX and iOS development.
+Get awsome color swatch defined in [Google Material Design](http://www.google.com/design/spec/style/color.html), write in swift and available for OSX and iOS development.
 
 ## Installation
 Drag and drop `MaterialColor.swift` file into your project
